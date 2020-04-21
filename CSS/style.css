@@ -1,0 +1,164 @@
+/*font-family: 'Comic Neue', cursive;*/
+
+*{
+    font-family: 'Comic Neue', cursive;
+}
+
+.container, .container-flex{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*menu*/
+.navbar-brand {
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-left: 20px;
+}
+/*materialize*/
+.menu2{
+margin-bottom: 0;
+}
+
+
+.navbar-light .navbar-brand {
+    color:white;
+}
+.navbar-light:hover .navbar-brand:hover {
+    color: #79CFE8;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white; 
+}
+
+.navbar-light:hover .navbar-nav:hover .nav-link:hover {
+    color:#79CFE8; 
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color:white;
+}
+nav ul a {
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+    font-size: 1.50em;
+}
+
+.dropdown-item {
+    color: #17a2b8;
+}
+
+
+/*info*/
+
+.definicion{
+    color:#17a2b8 ;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.card{
+    background: rgb(249, 251, 252);
+    color: #17a2b8;
+    border: #17a2b8 solid 2px;
+    margin-bottom: 5px;
+}
+
+.card h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.video{
+    border:#17a2b8 solid 3px ;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.card-header{
+   background: #79CFE8;
+}
+
+.card-header h1{
+    font-weight: bold;
+}
+
+.tipos{
+    font-size: large;
+    color: white;
+}
+
+.tipos h3{
+    font-size:40px;
+    font-weight: bold;
+}
+
+.tipo-1{
+    padding: 30px 10px;
+
+}
+
+/*materialize*/
+
+.btn:focus, .btn-large:focus, .btn-small:focus, .btn-floating:focus {
+    background-color: white;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), 
+input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), 
+input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), 
+input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), 
+textarea.materialize-textarea {
+    background-color: white;
+}
+
+/*footer*/
+
+.footer{
+    padding-top: 20px;
+}
+.contact {
+    color:white;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bigicon {
+    font-size: 35px;
+    color:#79CFE8;
+}
+
+.btn-lg{
+    background: #79CFE8;
+    border: #79CFE8 solid 1px;
+    color:#0d6370;
+    font-weight: bold;
+}
+
+.btn-lg:hover{
+    background: #91DCFF;
+    border: #79CFE8 solid 1px;
+}
+
+.creador{
+    margin: auto;
+}
+
+.redes img{
+    border-radius: 50%;
+    border: #79CFE8 solid 2px;
+}
+.redes h5{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.icon-red{
+    font-size: 60px;
+}
+
